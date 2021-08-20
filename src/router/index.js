@@ -12,9 +12,9 @@ const routes = [
       {
         name: 'home',
         path: '',
-        component: () => import('@/views/About.vue'),
+        component: () => import('@/views/home/index.vue'),
         meta: {
-          title: 'Página principal'
+          title: 'Gerações de Jogos'
         }
       }
     ]
