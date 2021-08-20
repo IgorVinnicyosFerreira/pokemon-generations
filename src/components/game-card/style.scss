@@ -1,0 +1,21 @@
+.card-game:hover {
+  transform: scale(1.08);
+  transition: 0.5s;
+}
+
+.card-title {
+  text-align: center !important;
+  font-size: 25px;
+  font-weight: bold;
+  text-transform: capitalize;
+
+  p {
+    text-align: center;
+    width: 100%;
+  }
+
+  span {
+    margin-left: 10px;
+    text-transform: uppercase;
+  }
+}
