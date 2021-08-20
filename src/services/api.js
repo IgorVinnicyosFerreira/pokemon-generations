@@ -12,6 +12,9 @@ class PokeApi {
     return await this.api.get('/v2/generation');
   }
 
+  async getGameDetailsByName(name){
+    return await this.api.get(`/v2/generation/${name}`);
+  }
 }
 
 export default new PokeApi();
