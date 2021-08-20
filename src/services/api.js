@@ -2,14 +2,14 @@ import axios from 'axios';
 
 class PokeApi {
   
-  construct(){
+  constructor(){
     this.api = axios.create({
       baseURL: 'https://pokeapi.co/api'
     });
   }
 
-  async getGameGenerationsByName(name) {
-    return await this.axios.get(`/v2/generation/${name}`);
+  async getGameGenerations() {
+    return await this.api.get('/v2/generation');
   }
 
 }
