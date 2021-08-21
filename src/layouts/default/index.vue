@@ -1,5 +1,5 @@
 <template>
-  <v-app id="app">
+  <v-app>
     <v-app-bar app height="80">
       <router-link :to="{ name: 'home' }">
         <img
