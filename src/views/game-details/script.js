@@ -34,6 +34,7 @@ export default {
     }
   },
   mounted(){
+    this.scrollToTop();
     document.title = this.$route.meta.title
 
     window.addEventListener("scroll", this.scrollListener);
