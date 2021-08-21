@@ -1,13 +1,15 @@
 <template>
   <v-app id="app">
     <v-app-bar app height="80">
-      <img
-        src="@/assets/img/pokebola.png"
-        alt="pokebola"
-        width="40"
-        height="40"
-        class="mr-md-4"
-      />
+      <router-link :to="{ name: 'home' }">
+        <img
+          src="@/assets/img/pokebola.png"
+          alt="pokebola"
+          width="40"
+          height="40"
+          class="mr-md-4"
+        />
+      </router-link>
       <v-toolbar-title
         v-if="$vuetify.breakpoint.mdAndUp"
         class="application-title"
