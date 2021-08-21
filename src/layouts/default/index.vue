@@ -20,7 +20,7 @@
       </div>
     </v-app-bar>
 
-    <v-main class="main-container px-5 px-md-16">
+    <v-main class="main-container">
       <router-view class="pt-5 pt-md-7" />
     </v-main>
   </v-app>
