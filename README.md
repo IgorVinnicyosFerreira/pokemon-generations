@@ -1,24 +1,19 @@
 # pokemon-generations
 
-## Project setup
+## Instalar as bibliotecas
+
 ```
 npm install
 ```
 
-### Compiles and hot-reloads for development
+### Rodar o servidor com hot-heload em modo development
+
 ```
 npm run serve
 ```
 
-### Compiles and minifies for production
+### Ou buildar a aplicação (precisa de um servidor http para acessa-la)
+
 ```
 npm run build
 ```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
